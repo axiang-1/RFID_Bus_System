@@ -1,0 +1,18 @@
+1	在开饭中新建一个目录cd /
+						mkdir RFID_BUS 
+2 	进入RFID_BUS     	cd /RFID_BUSQ
+
+3	把当前的src文件夹中把project 下载到开发板中
+						rx project
+4	修改权限			chmod 777 project
+5	下载这三张界面图
+
+6	把三张图和 project 放在同一个文件夹， 
+
+7 	在当前文件夹创建一个新的文件夹   mkdir user_data
+		
+	./project	
+		
+编译命令：arm-linux-gcc *.c -o face_chance -lpthread
+
+		
